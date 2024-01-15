@@ -1,0 +1,484 @@
+/* Eléments page sites web */
+
+html
+{
+	scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
+
+*
+{
+    max-width: 100%;
+    height: auto;
+}
+
+#banniere_description
+{
+	font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#bloc_page
+{
+    max-width: 100%;
+    height: 1080px;
+    margin: auto;
+}
+
+h2
+{
+	font-weight: bold;
+	font-style: normal;
+	font-size: 2.3em;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#code__g
+{
+    background:  url('../Img/image_6.jpg');
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 60px;
+	margin-top: 7%;
+    border-radius: 15px;
+}
+
+#projects_g
+{
+	margin: 3rem 0;
+}
+
+hr
+{
+    border-top: 3px dashed black;
+    margin: 40px 0;
+}
+
+#project__title 
+{
+	max-width: 500px;
+	display: block;
+	padding: 7px;
+	border-radius: 5px;
+	border: solid 2px black;
+	background-color: #fff;
+	color: black;
+	font-size: 1.6vw;
+	font-family: 'Quicksand', sans-serif;
+	margin: auto;
+	margin-top: 10px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#text
+{
+    position: relative;
+	color: black;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.3em;
+	font-weight: bold;
+	background: lightgrey;
+	padding: 10px;
+	max-width: 90%;
+	border-radius: 10px;
+	margin: auto;
+	height: auto;
+	border: 2px black solid;
+	margin-top: 3.5%;
+	text-align: center;
+	line-height: 45px;
+}
+
+#page__description
+{
+	background-color: #404040;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1vw;
+	margin: auto;
+    margin-top: 50px;
+    width: 80%;
+	padding: 7px 0px;
+}
+
+.mySlides {
+	display: none
+  }
+  img {
+	vertical-align: middle;
+  }
+  .slideshow-container {
+	max-width: 80%;
+	position: relative;
+	margin: auto;
+	margin-top: 25px;
+  }
+  /* Next & previous buttons */
+  .prev,
+  .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  /* Position the "next button" to the right */
+  .next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+  }
+  /* Caption text */
+  .text {
+	color: #fff;
+    background-color: rgba(0, 0, 0, 0.8) ;
+    min-width: 190px;
+    max-width: 250px;
+	font-size: 1vw;
+	font-weight: bold;
+	padding: 8px 12px;
+	position: relative;
+	bottom: 1px;
+	text-align: center;
+    margin: auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  /* Number text (1/3 etc) */
+  .numbertext {
+	color: #ffffff;
+	background-color: rgba(0, 0, 0, 0.6);
+	font-size: 0.9vw;
+	padding: 5px 10px;
+	position: absolute;
+	top: 0;
+  }
+  /* The dots/bullets/indicators */
+  .dot {
+	cursor: pointer;
+	height: 30px;
+	width: 100px;
+	margin: 0 25px;
+	background-color: #808080;
+	border-radius: 15px;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+	line-height: 30px;
+  }
+  .active,
+  .dot:hover {
+	background-color: #111111;
+  }
+  /* Fading animation */
+  .fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+  }
+  @-webkit-keyframes fade {
+	from {
+	  opacity: .4
+	}
+	to {
+	  opacity: 1
+	}
+  }
+  @keyframes fade {
+	from {
+	  opacity: .4
+	}
+	to {
+	  opacity: 1
+	}
+  }
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+	.prev,
+	.next,
+	.text {
+	  font-size: 11px
+	}
+  }
+
+  .mySlides1 {
+	display: none
+  }
+  img {
+	vertical-align: middle;
+  }
+  .slideshow-container1 {
+	max-width: 80%;
+	position: relative;
+	margin: auto;
+	margin-top: 25px;
+  }
+  /* Next & previous buttons */
+  .prev1,
+  .next1 {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  /* Position the "next button" to the right */
+  .next1 {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev1:hover,
+  .next1:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+  }
+  /* Caption text */
+  .text1 {
+	color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+	font-size: 1vw;
+	font-weight: bold;
+	padding: 8px 12px;
+	position: relative;
+	bottom: 1px;
+    margin: auto;
+    max-width: fit-content;
+	text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext1 {
+	color: #ffffff;
+	background-color: rgba(0, 0, 0, 0.6);
+	font-size: 0.9vw;
+	padding: 5px 10px;
+	position: absolute;
+	top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot1 {
+	cursor: pointer;
+	height: 30px;
+	width: 150px;
+	margin: 10px 10px;
+	background-color: #808080;
+	border-radius: 15px;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+	line-height: 30px;
+  }
+  .active,
+  .dot1:hover {
+	background-color: #111111;
+  }
+  /* Fading animation */
+  .fade1 {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+  }
+  @-webkit-keyframes fade {
+	from {
+	  opacity: .4
+	}
+	to {
+	  opacity: 1
+	}
+  }
+  @keyframes fade {
+	from {
+	  opacity: .4
+	}
+	to {
+	  opacity: 1
+	}
+  }
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+	.prev1,
+	.next1,
+	.text1 {
+	  font-size: 11px
+	}
+  }
+
+  #project_btn1, #project_btn3
+  {
+    width: 80%;
+    min-width: 80%;
+    height: 330px;
+    max-height: 330px;
+    border-radius: 5px;
+    margin-bottom: 30px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#project_btn2
+{
+    width: 80%;
+    min-width: 80%;
+    height: 330px;
+    max-height: 330px;
+    border-radius: 5px;
+    margin-bottom: 30px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.btn__nextpage {
+    font-family: 'Quicksand', sans-serif;
+	color: #C4C4C4;
+    font-weight: bold;
+	text-decoration: none;
+	padding: 13px 18px;
+	background: rgb(65, 65, 65);
+	font-size: 18px;
+	border-radius: 10px;
+	border: 2px solid #C4C4C4;
+	transition: all 0.3s ease-in-out;
+	float: right;
+	margin-bottom: 30px;
+    margin-right: 30px;
+}
+
+.btn__nextpage:hover {
+	color: #C4C4C4;
+	background: transparent; 
+}
+
+.btn__previouspage {
+    font-family: 'Quicksand', sans-serif;
+	color: #C4C4C4;
+    font-weight: bold;
+	text-decoration: none;
+	padding: 13px 18px;
+	background: rgb(65, 65, 65);
+	font-size: 18px;
+	border-radius: 10px;
+	border: 2px solid #C4C4C4;
+	transition: all 0.3s ease-in-out;
+	float: left;
+	margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.btn__previouspage:hover {
+	color: #C4C4C4;
+	background: transparent; 
+}
+
+@media(min-width: 768px) and (max-width: 1536px)
+{
+    #global
+    {
+        width: 100%;
+        padding: 0px;
+    }
+
+    #top_btn:hover
+    {
+        transform: none;
+        background-color: white;
+    }
+    
+    #text
+    {
+        line-height: 200%;
+    }
+
+    #project_btn1, #project_btn2, #project_btn3
+    {
+        max-width: 500px;
+        min-width: 500px;
+        margin: auto;
+        margin-bottom: 20px;
+		margin-top: 50px;
+    }
+
+	#project_btn1:hover, #project_btn2:hover, #project_btn3:hover
+	{
+        transform: scale(1.05);
+    }
+}
+
+@media(max-width: 767px)
+{
+
+	#bloc-page
+    {
+        padding: 0px;
+        width: 100%;
+    }
+
+
+	#video_txt1
+	{
+		margin: auto;
+		padding-bottom: 0.5px;
+	}
+
+	#video__title
+	{
+		max-width: 50%;
+		font-size: 1.15em;
+	}
+
+	h2 
+	{
+		font-size: 1.4em;
+	}
+
+	#project_btn1, #project_btn2, #project_btn3
+    {
+        z-index: 2;
+        max-width: 280px;
+        min-width: 280px;
+        height: 175px;
+        max-height: 175px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+	#project_btn1:hover, #project_btn2:hover, #project_btn3:hover
+    {
+        transform: scale(1.05);
+    }
+
+}

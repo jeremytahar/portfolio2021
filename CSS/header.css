@@ -1,0 +1,297 @@
+/* Header */
+header
+{
+  font-family: 'Trebuchet MS', serif;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 130px;
+  margin: 8px 8px 0 8px;
+}
+
+header nav
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 100%;
+    max-width: 100%;
+    align-items: center;
+}
+
+header nav a,
+header nav button
+{
+    font-size: 1.3em;
+    color: white;
+    text-decoration: none;
+    margin: 0 40px;
+}
+
+header button
+{
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+header .dropdown-1
+{
+  display: flex;
+  position: relative;
+  align-items: center;
+  height: 130px;
+  border-left: 3px solid transparent;
+}
+
+header .dropdown-2
+{
+  display: flex;
+  position: relative;
+  height: 130px;
+  padding-right: 30px;
+  border-left: 3px solid transparent;
+}
+
+header .dropdown-1 .content
+{
+  display: none;
+}
+
+header .dropdown-1 a,
+header .dropdown-2
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+header .dropdown-1:hover .content
+{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.90);
+  top: 130px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 0px 5px 0px;
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+}
+
+header .dropdown-1:hover .content a
+{
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  color: white;
+  font-size: 1.15em;
+  line-height: 40px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 0;
+}
+
+header .dropdown-1 .content a:hover
+{
+  color: #ca3d40;
+}
+
+header .icon
+{
+  display: none;
+  color: white;
+}
+
+header .icon1
+{
+  display: none;
+  color: white;
+}
+
+header .dropdown-1:hover,
+header .dropdown-2:hover
+{
+  background-color: black;
+  border-left: 3px solid #ca3d40;
+  cursor: pointer;
+}
+
+header .dropdown-1:hover button
+{
+  color: #ca3d40;
+}
+
+header .dropdown-1:hover a,
+header .dropdown-2:hover a
+{
+  color: #ca3d40;
+}
+
+nav a:hover,
+nav button:hover
+{
+    color: #ca3d40;
+}
+
+.logo_titre
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    position: relative;
+}
+
+.logo img
+{
+    width: 8rem;
+}
+
+.titre_principal
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .home__txt_btn > h1
+{
+  font-family: 'Trebuchet MS', serif;
+  font-size: 2.5em;
+  font-weight: normal;
+  margin: 0 0 0 10px;
+}
+
+@media(min-width: 768px) and (max-width: 1388px)
+{
+    .logo_titre
+    {
+        font-size: 0.6em;
+    }
+
+}
+
+@media(max-width: 767px)
+{
+  *
+  {
+    margin: 0;
+  }
+
+  header
+  {
+    height: 110px;
+    margin: 0;
+  }
+
+  #bloc-page
+  {
+      padding: 0px;
+      width: 100%;
+  }
+
+  .home__txt_btn
+  {        
+    font-size: 0.6em;
+  }
+
+  .logo_titre
+  {
+    width: 75%;
+    padding: 0px;
+  }
+
+  .titre_principal
+  {
+    width: 60%;
+  }
+  
+  .logo img
+  {
+    width: 90px;
+    height: 90px;
+  }
+
+  header .dropdown-2
+  {
+    padding: 0;
+  }
+
+  header nav .dropdown-1 a,
+  header nav .dropdown-2 a,
+  header nav .dropdown-1 button
+  {
+    display: none;
+  }
+
+  header .icon
+  {
+    z-index: 10000;
+    font-size: 1.25em;
+    margin-right: 25px;
+    display: flex;
+    cursor: pointer;
+  }
+
+  header.responsive nav .dropdown-1 a,
+  header.responsive nav .dropdown-2 a,
+  header.responsive nav .dropdown-1 button
+  {
+    display: flex;
+  }
+    
+  header .dropdown-1:hover, 
+  header .dropdown-2:hover 
+  {
+    background-color: transparent;
+    border: none;
+  }
+
+  header .dropdown-1:hover .content
+  {
+    display: none;
+  }
+
+  header.responsive nav
+  {
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.95);
+    position: absolute;
+    top: 110px;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .responsive
+  {
+    background-color: rgba(0, 0, 0, 0.95);
+  }
+
+  header.responsive .icon
+  {
+    display: none;    
+  }
+
+  header.responsive .icon1
+  {
+    color: white;
+    z-index: 10000;
+    font-size: 1.25em;
+    margin-right: 25px;
+    display: flex;
+    cursor: pointer;  
+  } 
+
+}

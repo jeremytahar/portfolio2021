@@ -1,0 +1,11 @@
+/* Polices d'écriture */
+
+@font-face 
+{
+    font-family: 'Oloron';
+    src: url('../Fonts/Oloron/olort___-webfont.woff2') format('woff2'),
+         url('../Fonts/Oloron/olort___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

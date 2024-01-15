@@ -1,0 +1,43 @@
+.container
+{
+    background:  rgb(190, 190, 190);
+    color: black;
+    padding: 3rem 5rem;
+	margin: 4rem 15rem;
+	border-radius: 1rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1
+{
+    text-align: center;
+    margin: 0 0 2rem 0;
+}
+
+p:not(footer p)
+{
+    margin: 2rem 2rem;
+    font-size: 1.2em;
+}
+
+@media(max-width: 767px)
+{
+    .container
+    {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    h1 
+    {
+        font-size: 1.7em;
+        margin: 1.5rem 0 2rem 0;
+    }
+
+    p:not(footer p)
+    {
+        margin: 1rem 0.5rem;
+        font-size: 1em;
+        text-align: justify;
+    }
+}

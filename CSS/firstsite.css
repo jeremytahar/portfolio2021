@@ -1,0 +1,93 @@
+@media(min-width: 768px) and (max-width: 1536px)
+{
+
+    #code__g
+    {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    #page__description
+    {
+        font-size: 1em;
+    }
+
+    .dot
+    {
+        margin: 10px 25px;
+    }
+
+    #project__title
+    {
+        font-size: 1.2em;
+    }
+
+    .text
+    {
+        font-size: 1em;
+    }
+
+    .numbertext
+    {
+        font-size: 0.85em;
+    }
+}
+
+@media(max-width: 767px)
+{
+
+    .btn__nextpage
+    {
+        margin-top: 10px;
+    }
+
+    #code__g
+    {
+        margin: auto;
+    }
+
+	#bloc-page
+    {
+        padding: 0px;
+        width: 100%;
+    }
+
+    #page__description
+    {
+        font-size: 1em;
+        padding: 3%;
+    }
+
+	#project__title
+	{
+		max-width: 50%;
+		font-size: 1.15em;
+	}
+
+	h2 
+	{
+		font-size: 1.4em;
+	}
+    
+    .dot
+    {
+        margin: 10px 20px;
+    }
+
+    .slideshow-container
+    {
+        max-width: 280px;
+        min-width: 280px; 
+        height: auto;
+    }
+
+    .numbertext
+    {
+        font-size: 0.9em;
+    }
+
+    .text
+    {
+        font-size: 0.8em;
+    }
+}

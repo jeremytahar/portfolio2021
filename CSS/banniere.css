@@ -1,0 +1,26 @@
+/* Bannière */
+
+.bouton_rouge
+{
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    background: black no-repeat;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 0.9em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+
+.bouton_rouge img
+{
+    border: 0;
+}
+
+
